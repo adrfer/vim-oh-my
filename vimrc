@@ -90,6 +90,12 @@ set autoindent
 " Enable smart indentantion
 set smartindent
 
+" Map identation to Cmd-[ and Cmd-]
+nmap <D-[> <<
+nmap <D-]> >>
+vmap <D-[> <gv
+vmap <D-]> >gv
+
 " --
 " Search
 " --
