@@ -14,6 +14,9 @@ syntax on
 set number
 set numberwidth=5
 
+" Show an elipsis for breaking lines
+set showbreak=…
+
 " Highlight matching brace
 set showmatch
 
