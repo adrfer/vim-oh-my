@@ -69,23 +69,26 @@ nnoremap <C-l> <C-w>l
 " Enable file type detection and do language-dependent indenting
 filetype plugin indent on
 
+" Enable smart tabs                                                              
+set smarttab
+
+" Specify the width of a tab
+set tabstop=4
+
+" Use spaces instead of tabs                                                     
+set expandtab 
+
+" Set the number of spaces per tab                                               
+set softtabstop=4 
+
+" Set the amount of spaces when indenting
+set shiftwidth=4
+
 " Auto-indent new lines
 set autoindent
 
-" Use spaces instead of tabs
-set expandtab
-
-" Set the number of auto-indent spaces
-set shiftwidth=4
-
-" Enable smart-indent
+" Enable smart indentantion
 set smartindent
-
-" Set the number of spaces per tab
-set softtabstop=4
-
-" Enable smart-tabs
-set smarttab
 
 " --
 " Search
