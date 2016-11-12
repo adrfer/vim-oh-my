@@ -49,6 +49,9 @@ set listchars=tab:▸\ ,eol:¬
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 
+" Show visual autocomplete menu for commands
+set wildmenu 
+
 " --
 " Navigation
 " --
@@ -78,17 +81,17 @@ map <C-l> <C-w>l
 " Enable file type detection and do language-dependent indenting
 filetype plugin indent on
 
-" Enable smart tabs                                                              
+" Enable smart tabs
 set smarttab
 
 " Specify the width of a tab
 set tabstop=4
 
-" Use spaces instead of tabs                                                     
-set expandtab 
+" Use spaces instead of tabs
+set expandtab
 
-" Set the number of spaces per tab                                               
-set softtabstop=4 
+" Set the number of spaces per tab
+set softtabstop=4
 
 " Set the amount of spaces when indenting
 set shiftwidth=4
