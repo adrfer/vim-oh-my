@@ -133,3 +133,7 @@ set diffopt+=vertical
 
 " Perform :w before running commands
 set autowrite
+
+" Do not keep a backup files 
+set nobackup
+set nowritebackup
