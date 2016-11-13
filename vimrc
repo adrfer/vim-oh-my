@@ -26,7 +26,7 @@ set showtabline=2
 " Show command on the bottom bar
 set showcmd
 
-"Display the status line
+"Display the status line at the bottom
 set laststatus=2
 
 " Show the cursor position all the time
