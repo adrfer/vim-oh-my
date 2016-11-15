@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+# Check if git is available
+if ! command -v 'git' >/dev/null 2>&1; then
+  echo 'Ooops, git not found.'
+  echo 'Go to https://git-scm.com for more info.'
+  exit 1
+fi
+
+# Define repository variables
+local_repo="${HOME}/.vim-oh-my"
+remote_repo='https://github.com/adrfer/vim-oh-my.git'
+
+# Backup existing files, if any
+if [[ -d "${local_repo}" ]]; then
+  echo -n 'Backing up existing vim files...'
+  mv -f "${local_repo%/}"{," copy $(date +%s)"}
+  echo ' done.'
+fi
+
+# Download new files
+echo -n 'Downloading sassy configurations for the most iconic duo ever...'
+
+if git clone --quiet "${remote_repo}" "${local_repo}" >/dev/null 2>&1; then
+  echo ' done.'
+else
+  echo
+  echo 'Ooops, there was an error, try again.'
+  exit 1
+fi
+
+# Setup existing and new files
+echo -n 'Setting up resources files...'
+ln -sf "${local_repo}/vimrc" "${HOME}/.vimrc"
+echo ' done.'
+
+echo 'All good, enjoy!'
+exit 0
