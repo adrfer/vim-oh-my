@@ -16,16 +16,24 @@ set cursorline
 " Show line numbers with defined width
 set number numberwidth=5
 
-" Show the top bar
+" Show the tab line on top
 set showtabline=2
 
-" Show the status line above the bottom bar
+" Show the status line as the second last line
 set laststatus=2
 
-" Show the cursor position on the status line
-set ruler
+" Set up a simple yet more informative status line
+set statusline=%<%F
+set statusline+=\ %(%{&ro!=0?'[readonly]':''}%)
+set statusline+=\ %(%{&modified?'[modified]':''}%)
+set statusline+=%=
+set statusline+=\ [l:\ %l/%L\ (%p%%)]
+set statusline+=\ [c:\ %c]
+set statusline+=\ [%{&fileformat}]
+set statusline+=\ [%{&fileencoding}]
+set statusline+=\ [%{&filetype}]
 
-" Show commands on the bottom bar
+" Show commands on bottom
 set showcmd
 
 " Show visual autocomplete menu for commands
@@ -40,11 +48,8 @@ set textwidth=80 colorcolumn=+1
 " Open new split panes to the right and bottom
 set splitbelow splitright
 
-" Show custom  invisible characters
+" Show custom invisible characters
 set listchars=tab:▸\ ,trail:·,eol:¬ showbreak=↪\
-
-" Show visual autocomplete menu for commands
-set wildmenu
 
 " --
 " Navigation
@@ -72,7 +77,7 @@ map <C-l> <C-w>l
 " Tabs, Spaces, and Indentation
 " --
 
-" Enable file type detection and do language-based indenting
+" Enable file type detection and language-based indenting
 filetype plugin indent on
 
 " Enable smart tabs
@@ -96,7 +101,7 @@ set autoindent
 " Enable smart indentantion
 set smartindent
 
-" Indent using  Cmd-[ and Cmd-]
+" Indent using Cmd-[ and Cmd-]
 nmap <D-[> <<
 nmap <D-]> >>
 vmap <D-[> <gv
