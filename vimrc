@@ -23,6 +23,9 @@ set nobackup nowritebackup
 " User Interface
 " --
 
+" Show title on terminal window 
+set title
+
 " Configure custom 16-color palette and scheme
 let g:onedark_termcolors=16
 colorscheme onedark
