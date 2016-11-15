@@ -18,7 +18,6 @@ To install, open a terminal and run:
 
     bash <(curl -sL https://raw.github.com/adrfer/vim-oh-my/master/uninstall)
 
-
 --
 **Note:** Vim Oh My wouldn't be complete if it wasn't for awesome prior art. So, make it stand out by pairing it with [terminal-oh-my](https://github.com/adrfer/terminal-oh-my) and joshdick's [onedark.vim](https://github.com/joshdick/onedark.vim) projects which have been inspired by atom's great [one-dark-syntax](https://github.com/atom/one-dark-syntax).
 
