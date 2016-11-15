@@ -1,10 +1,26 @@
 " Type `:h setting' for more info
 
+" --
+" General
+" --
+
 " Use vim settings, rather than vi's
 set nocompatible
 
+" Configure backspace so it acts as it should
+set backspace=eol,start,indent
+
+" Save file  before running commands
+set autowrite
+
+" Use vertical diffs only
+set diffopt+=vertical
+
+" Avoid keeping backup files
+set nobackup nowritebackup
+
 " --
-" Interface
+" User Interface
 " --
 
 " Configure custom 16-color palette and scheme
@@ -126,19 +142,3 @@ set ignorecase
 
 " Enable incremental search
 set incsearch
-
-" --
-" Other
-" --
-
-" Configure backspace so it acts as it should
-set backspace=eol,start,indent
-
-" Save file  before running commands
-set autowrite
-
-" Use vertical diffs only
-set diffopt+=vertical
-
-" Avoid keeping backup files
-set nobackup nowritebackup
