@@ -31,7 +31,8 @@ fi
 
 # Setup existing and new files
 echo -n 'Setting up resources files...'
-ln -sf "${local_repo}/vimrc" "${HOME}/.vimrc"
+ln -sf "${local_repo}/vimrc" "${HOME}/.vimrc" 
+ln -sf "${local_repo}/tmux.conf" "${HOME}/.tmux.conf"
 echo ' done.'
 
 echo 'All good, enjoy!'
