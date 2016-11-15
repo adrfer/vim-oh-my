@@ -7,6 +7,10 @@ set nocompatible
 " Interface
 " --
 
+" Configure custom 16-color palette and scheme
+let g:onedark_termcolors=16
+colorscheme onedark
+
 " Enable syntax highlighting
 syntax on
 
