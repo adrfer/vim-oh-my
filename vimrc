@@ -53,7 +53,7 @@ set statusline+=%=
 set statusline+=\ [l:\ %l/%L\ (%p%%)]
 set statusline+=\ [c:\ %c]
 set statusline+=\ [%{&fileformat}]
-set statusline+=\ [%{&fileencoding}]
+set statusline+=%(\ [%{&fileencoding}]%)
 set statusline+=\ [%{&filetype}]
 
 " Show commands on bottom
