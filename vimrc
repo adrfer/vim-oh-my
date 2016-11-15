@@ -88,16 +88,16 @@ filetype plugin indent on
 set smarttab
 
 " Specify the width of a tab
-set tabstop=4
+set tabstop=2
 
 " Use spaces instead of tabs
 set expandtab
 
 " Set the number of spaces per tab
-set softtabstop=4
+set softtabstop=2
 
 " Set the amount of spaces when indenting
-set shiftwidth=4
+set shiftwidth=2
 
 " Auto-indent new lines
 set autoindent
