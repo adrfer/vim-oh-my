@@ -18,6 +18,10 @@ To install, open a terminal and run:
 
     bash <(curl -sL https://raw.github.com/adrfer/vim-oh-my/master/uninstall)
 
+
+--
+**Note:** Vim Oh My wouldn't be complete if it wasn't for awesome prior art. This is Vim Oh My's [Terminal color scheme](https://github.com/adrfer/terminal-oh-my) which has been inspired by atom's great [one dark](https://github.com/atom/one-dark-syntax) project.
+
 --
 Hey, looking for some bash badassery? Check out [bash-oh-my](https://github.com/adrfer/bash-oh-my).
 
