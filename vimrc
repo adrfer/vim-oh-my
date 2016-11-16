@@ -145,3 +145,13 @@ set ignorecase
 
 " Enable incremental search
 set incsearch
+
+" --
+" Commands
+" --
+
+" Bind :Q to :q and so on
+command! E e
+command! Q q
+command! W w
+command! Wq wq
