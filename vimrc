@@ -10,7 +10,7 @@ set nocompatible
 " Configure backspace so it acts as it should
 set backspace=eol,start,indent
 
-" Save file  before running commands
+" Save file before running commands
 set autowrite
 
 " Use vertical diffs only
