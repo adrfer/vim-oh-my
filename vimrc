@@ -96,6 +96,10 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" Scroll up and down faster
+nnoremap <C-e> 5<C-e>
+nnoremap <C-y> 5<C-y>
+
 " --
 " Tabs, Spaces, and Indentation
 " --
