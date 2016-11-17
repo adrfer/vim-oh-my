@@ -75,7 +75,7 @@ set textwidth=80 colorcolumn=+1
 set splitbelow splitright
 
 " Show custom invisible characters
-set listchars=tab:▸\ ,trail:·,eol:¬ showbreak=↪
+set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 
 " --
 " Navigation
