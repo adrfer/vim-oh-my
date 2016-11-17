@@ -154,8 +154,11 @@ set incsearch
 " Commands
 " --
 
-" Bind :Q to :q and so on
+" Lenient bindings to edit, save, and quit
 command! E e
 command! Q q
+command! Qa qa
+command! QA qa
 command! W w
 command! Wq wq
+command! WQ wq
