@@ -24,7 +24,7 @@ if git clone "${remote_repo}" "${local_repo}" >/dev/null 2>&1; then
   echo ' done.'
 else
   echo
-  echo "Ooops, unable to access ${remote_repo}, try again."o
+  echo "Ooops, unable to access ${remote_repo}, try again."
   exit 1
 fi
 
