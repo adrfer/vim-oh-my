@@ -13,6 +13,9 @@ set backspace=eol,start,indent
 " Save file before running commands
 set autowrite
 
+" Reload opened files changed elsewhere
+set autoread
+
 " Use vertical diffs only
 set diffopt+=vertical
 
