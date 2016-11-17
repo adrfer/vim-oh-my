@@ -39,8 +39,8 @@ syntax on
 " Highlight the current line
 set cursorline
 
-" Show line numbers with defined width
-set number numberwidth=5
+" Show absolute and relative line numbers with defined width 
+set number relativenumber numberwidth=5
 
 " Show the tab line on top
 set showtabline=2
