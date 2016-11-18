@@ -19,8 +19,8 @@ set autoread
 " Use vertical diffs only
 set diffopt+=vertical
 
-" Avoid keeping backup files
-set nobackup nowritebackup
+" Avoid keeping backup and swap files
+set nobackup nowritebackup noswapfile
 
 " --
 " User Interface
@@ -34,6 +34,7 @@ let g:onedark_termcolors=16
 colorscheme onedark
 
 " Enable syntax highlighting
+"
 syntax on
 
 " Highlight the current line
