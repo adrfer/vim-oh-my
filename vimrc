@@ -65,6 +65,12 @@ set showcmd
 " Show visual autocomplete menu for commands
 set wildmenu
 
+" Ignore specified file patterns during autocomplete
+set wildignore+=.git
+set wildignore+=*.jpg,*.jpeg,*.bmp,*.gif,*.png
+set wildignore+=*.sw?
+set wildignore+=*.DS_Store
+
 " Highlight matching braces
 set showmatch
 
