@@ -88,6 +88,9 @@ set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 " Navigation and Selection
 " --
 
+" Start scrolling a few lines before borders 
+set scrolloff=5
+
 " Use h, j, k, l rather than arrow keys
 nnoremap <Left> :echoe "Hey, use h instead"<CR>
 nnoremap <Right> :echoe "Hey, use l instead"<CR>
