@@ -85,7 +85,7 @@ set splitbelow splitright
 set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 
 " --
-" Navigation and Selection
+" Navigation
 " --
 
 " Start scrolling a few lines before borders 
@@ -114,9 +114,6 @@ nnoremap <C-e> 5<C-e>
 nnoremap <C-y> 5<C-y>
 vnoremap <C-e> 5<C-e>
 vnoremap <C-y> 5<C-y>
-
-" Select the entire buffer
-nnoremap vaa ggVG
 
 " --
 " Tabs, Spaces, and Indentation
