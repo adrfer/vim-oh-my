@@ -67,10 +67,10 @@ set showcmd
 set wildmenu
 
 " Ignore specified file patterns during autocomplete
-set wildignore+=.git
+set wildignore+=.git,.svn
 set wildignore+=*.jpg,*.jpeg,*.bmp,*.gif,*.png
-set wildignore+=*.sw?
-set wildignore+=*.DS_Store
+set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar
+set wildignore+=*.swp,.DS_Store
 
 " Highlight matching braces
 set showmatch
@@ -85,7 +85,7 @@ set splitbelow splitright
 set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 
 " --
-" Navigation
+" Navigation and Selection
 " --
 
 " Use h, j, k, l rather than arrow keys
@@ -109,6 +109,9 @@ map <C-l> <C-w>l
 " Scroll up and down faster
 nnoremap <C-e> 5<C-e>
 nnoremap <C-y> 5<C-y>
+
+" Select the entire buffer
+nnoremap vaa ggVG
 
 " --
 " Tabs, Spaces, and Indentation
