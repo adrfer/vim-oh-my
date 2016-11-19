@@ -149,6 +149,9 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
 
+" Zap white spaces from the end of current line
+map <Leader>zw :%s/\s\+$//<CR>
+
 " --
 " Search
 " --
