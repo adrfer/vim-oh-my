@@ -112,6 +112,8 @@ map <C-l> <C-w>l
 " Scroll up and down faster
 nnoremap <C-e> 5<C-e>
 nnoremap <C-y> 5<C-y>
+vnoremap <C-e> 5<C-e>
+vnoremap <C-y> 5<C-y>
 
 " Select the entire buffer
 nnoremap vaa ggVG
