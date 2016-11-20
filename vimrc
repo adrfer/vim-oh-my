@@ -149,8 +149,9 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
 
-" Zap white spaces from the end of current line
-map <Leader>zw :%s/\s\+$//<CR>
+" Trim leading and trailing white spaces from current line
+map <Leader>lw :%s/^\s\+//e<CR>
+map <Leader>tw :%s/\s\+$//e<CR>
 
 " --
 " Search
