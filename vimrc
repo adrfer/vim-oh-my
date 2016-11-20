@@ -34,7 +34,6 @@ let g:onedark_termcolors=16
 colorscheme onedark
 
 " Enable syntax highlighting
-"
 syntax on
 
 " Highlight the current line
@@ -68,9 +67,9 @@ set wildmenu
 
 " Ignore specified file patterns during autocomplete
 set wildignore+=.git,.svn
+set wildignore+=*.swp,.DS_Store
 set wildignore+=*.jpg,*.jpeg,*.bmp,*.gif,*.png
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar
-set wildignore+=*.swp,.DS_Store
 
 " Highlight matching braces
 set showmatch
@@ -97,15 +96,15 @@ nnoremap <Right> :echoe "Hey, use l instead"<CR>
 nnoremap <Up> :echoe "Hey, use k instead"<CR>
 nnoremap <Down> :echoe "Hey, use j instead"<CR>
 
-inoremap <Left> <Nop>
-inoremap <Right> <Nop>
-inoremap <Up> <Nop>
-inoremap <Down> <Nop>
-
 vnoremap <Left> :echoe "Hey, use h instead"<CR>
 vnoremap <Right> :echoe "Hey, use l instead"<CR>
 vnoremap <Up> :echoe "Hey, use k instead"<CR>
 vnoremap <Down> :echoe "Hey, use j instead"<CR>
+
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
 
 " Navigate window splits quicker
 nnoremap <C-j> <C-w>j
