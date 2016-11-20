@@ -97,10 +97,10 @@ nnoremap <Right> :echoe "Hey, use l instead"<CR>
 nnoremap <Up> :echoe "Hey, use k instead"<CR>
 nnoremap <Down> :echoe "Hey, use j instead"<CR>
 
-inoremap <Left> :echoe "Hey, use h instead"<CR>
-inoremap <Right> :echoe "Hey, use l instead"<CR>
-inoremap <Up> :echoe "Hey, use k instead"<CR>
-inoremap <Down> :echoe "Hey, use j instead"<CR>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+inoremap <Up> <Nop>
+inoremap <Down> <Nop>
 
 vnoremap <Left> :echoe "Hey, use h instead"<CR>
 vnoremap <Right> :echoe "Hey, use l instead"<CR>
