@@ -97,6 +97,16 @@ nnoremap <Right> :echoe "Hey, use l instead"<CR>
 nnoremap <Up> :echoe "Hey, use k instead"<CR>
 nnoremap <Down> :echoe "Hey, use j instead"<CR>
 
+inoremap <Left> :echoe "Hey, use h instead"<CR>
+inoremap <Right> :echoe "Hey, use l instead"<CR>
+inoremap <Up> :echoe "Hey, use k instead"<CR>
+inoremap <Down> :echoe "Hey, use j instead"<CR>
+
+vnoremap <Left> :echoe "Hey, use h instead"<CR>
+vnoremap <Right> :echoe "Hey, use l instead"<CR>
+vnoremap <Up> :echoe "Hey, use k instead"<CR>
+vnoremap <Down> :echoe "Hey, use j instead"<CR>
+
 " Navigate window splits quicker
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
