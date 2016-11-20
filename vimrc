@@ -92,24 +92,24 @@ set scrolloff=5
 
 " Use h, j, k, l rather than arrow keys
 nnoremap <Left> :echoe "Hey, use h instead"<CR>
-nnoremap <Right> :echoe "Hey, use l instead"<CR>
-nnoremap <Up> :echoe "Hey, use k instead"<CR>
 nnoremap <Down> :echoe "Hey, use j instead"<CR>
+nnoremap <Up> :echoe "Hey, use k instead"<CR>
+nnoremap <Right> :echoe "Hey, use l instead"<CR>
 
 vnoremap <Left> :echoe "Hey, use h instead"<CR>
-vnoremap <Right> :echoe "Hey, use l instead"<CR>
-vnoremap <Up> :echoe "Hey, use k instead"<CR>
 vnoremap <Down> :echoe "Hey, use j instead"<CR>
+vnoremap <Up> :echoe "Hey, use k instead"<CR>
+vnoremap <Right> :echoe "Hey, use l instead"<CR>
 
 inoremap <Left> <Nop>
-inoremap <Right> <Nop>
-inoremap <Up> <Nop>
 inoremap <Down> <Nop>
+inoremap <Up> <Nop>
+inoremap <Right> <Nop>
 
 " Navigate window splits quicker
+nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
 " Move focus between windows
