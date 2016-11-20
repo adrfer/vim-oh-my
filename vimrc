@@ -191,3 +191,11 @@ command! QA qa
 command! W w
 command! Wq wq
 command! WQ wq
+
+" --
+" Text Editing
+" --
+
+" Upper and lowercase current word
+map <Leader>uc gUiW
+map <Leader>lc guiW
