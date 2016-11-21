@@ -198,3 +198,10 @@ command! WQ wq
 " Upper and lowercase current word
 map <Leader>uc gUiW
 map <Leader>lc guiW
+
+
+" --
+" Other
+" --
+
+nmap <leader>ev :tabedit $MYVIMRC<CR>
