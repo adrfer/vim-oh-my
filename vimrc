@@ -184,9 +184,11 @@ set incsearch
 " Lenient bindings to edit, save, and quit
 command! E e
 command! Q q
+command! Q! q!
 command! Qa qa
 command! QA qa
 command! W w
+command! W! w!
 command! Wq wq
 command! WQ wq
 
