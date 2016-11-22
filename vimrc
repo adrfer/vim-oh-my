@@ -1,4 +1,3 @@
-" Type `:h setting' for more info
 
 " --
 " General
