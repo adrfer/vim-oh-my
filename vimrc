@@ -25,7 +25,7 @@ set nobackup nowritebackup noswapfile
 " User Interface
 " --
 
-" Show title on terminal window 
+" Show title on terminal window
 set title
 
 " Configure custom 16-color palette and scheme
@@ -38,7 +38,7 @@ syntax on
 " Highlight the current line
 set cursorline
 
-" Show absolute and relative line numbers with defined width 
+" Show absolute and relative line numbers with defined width
 set number relativenumber numberwidth=5
 
 " Show the tab line on top
@@ -86,7 +86,7 @@ set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 " Navigation
 " --
 
-" Start scrolling a few lines before borders 
+" Start scrolling a few lines before borders
 set scrolloff=5
 
 " Use h, j, k, l rather than arrow keys
@@ -182,15 +182,15 @@ set incsearch
 " --
 
 " Lenient bindings to edit, save, and quit
-command! E e
-command! Q q
-command! Q! q!
-command! Qa qa
-command! QA qa
-command! W w
-command! W! w!
-command! Wq wq
-command! WQ wq
+command! -bang -nargs=? -complete=file E e<bang> <args>
+command! -bang -nargs=? -complete=file W w<bang> <args>
+command! -bang -nargs=? -complete=file Wq wq<bang> <args>
+command! -bang -nargs=? -complete=file WQ wq<bang> <args>
+command! -bang Wa wa<bang>
+command! -bang WA wa<bang>
+command! -bang Q q<bang>
+command! -bang Qa qa<bang>
+command! -bang QA qa<bang>
 
 " --
 " Text Editing
