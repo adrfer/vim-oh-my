@@ -154,12 +154,6 @@ set autoindent
 " Enable smart indentantion
 set smartindent
 
-" Indent using Cmd-[ and Cmd-]
-nmap <D-[> <<
-nmap <D-]> >>
-vmap <D-[> <gv
-vmap <D-]> >gv
-
 " Trim leading and trailing white spaces from current line
 map <Leader>lw :%s/^\s\+//e<CR>
 map <Leader>tw :%s/\s\+$//e<CR>
