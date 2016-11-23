@@ -3,7 +3,7 @@
 " General
 " --
 
-" Use vim settings, rather than vi's
+" Use vim settings rather than vi's
 set nocompatible
 
 " Configure backspace so it acts as it should
@@ -15,7 +15,7 @@ set autowrite
 " Reload opened files changed elsewhere
 set autoread
 
-" Use vertical diffs only
+" Use vertical splits only for diffs 
 set diffopt+=vertical
 
 " Avoid keeping backup and swap files
@@ -61,7 +61,7 @@ set statusline+=\ [%{&fileformat}]
 set statusline+=%(\ [%{&fileencoding}]%)
 set statusline+=\ [%{&filetype}]
 
-" Show commands on bottom
+" Show incomplete commands on bottom
 set showcmd
 
 " Show visual autocomplete menu for commands
@@ -184,7 +184,7 @@ set incsearch
 " Commands
 " --
 
-" Lenient bindings to edit, save, and quit
+" Edit, save, and quit by using more lenient bindings
 command! -bang -nargs=? -complete=file E e<bang> <args>
 command! -bang -nargs=? -complete=file W w<bang> <args>
 command! -bang -nargs=? -complete=file Wq wq<bang> <args>
@@ -208,4 +208,5 @@ map <Leader>lc guiW
 " Other
 " --
 
+" Edit ~/.vimrc in a separate tab
 nmap <leader>ev :tabedit $MYVIMRC<CR>
