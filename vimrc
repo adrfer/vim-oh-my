@@ -21,6 +21,9 @@ set diffopt+=vertical
 " Avoid keeping backup and swap files
 set nobackup nowritebackup noswapfile
 
+" Wait less time for commands to complete
+set timeout timeoutlen=3000 ttimeoutlen=100
+
 " --
 " User Interface
 " --
