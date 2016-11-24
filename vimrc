@@ -193,6 +193,9 @@ command! -bang QA qa<bang>
 " Text Editing
 " --
 
+" Yank from cursor to the end of line
+nnoremap Y y$
+
 " Upper and lowercase current word
 map <leader>uc gUiW
 map <leader>lc guiW
