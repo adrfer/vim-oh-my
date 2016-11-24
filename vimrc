@@ -93,38 +93,38 @@ set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 set scrolloff=5
 
 " Use h, j, k, l rather than arrow keys
-nnoremap <Left> :echoe "Hey, use h instead"<CR>
-nnoremap <Down> :echoe "Hey, use j instead"<CR>
-nnoremap <Up> :echoe "Hey, use k instead"<CR>
-nnoremap <Right> :echoe "Hey, use l instead"<CR>
+nnoremap <left> :echoe "Hey, use h instead"<cr>
+nnoremap <down> :echoe "Hey, use j instead"<cr>
+nnoremap <up> :echoe "Hey, use k instead"<cr>
+nnoremap <right> :echoe "Hey, use l instead"<cr>
 
-vnoremap <Left> :echoe "Hey, use h instead"<CR>
-vnoremap <Down> :echoe "Hey, use j instead"<CR>
-vnoremap <Up> :echoe "Hey, use k instead"<CR>
-vnoremap <Right> :echoe "Hey, use l instead"<CR>
+vnoremap <left> :echoe "Hey, use h instead"<cr>
+vnoremap <down> :echoe "Hey, use j instead"<cr>
+vnoremap <up> :echoe "Hey, use k instead"<cr>
+vnoremap <right> :echoe "Hey, use l instead"<cr>
 
-inoremap <Left> <Nop>
-inoremap <Down> <Nop>
-inoremap <Up> <Nop>
-inoremap <Right> <Nop>
+inoremap <left> <nop>
+inoremap <down> <nop>
+inoremap <up> <nop>
+inoremap <right> <nop>
 
 " Navigate window splits quicker
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+nnoremap <c-h> <c-w>h
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l
 
 " Move focus between windows
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
+map <c-h> <c-w>h
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
 
 " Scroll up and down faster
-nnoremap <C-e> 5<C-e>
-nnoremap <C-y> 5<C-y>
-vnoremap <C-e> 5<C-e>
-vnoremap <C-y> 5<C-y>
+nnoremap <c-e> 5<c-e>
+nnoremap <c-y> 5<c-y>
+vnoremap <c-e> 5<c-e>
+vnoremap <c-y> 5<c-y>
 
 " --
 " Tabs, Spaces, and Indentation
@@ -155,8 +155,8 @@ set autoindent
 set smartindent
 
 " Trim leading and trailing white spaces from current line
-map <Leader>lw :%s/^\s\+//e<CR>
-map <Leader>tw :%s/\s\+$//e<CR>
+map <leader>lw :%s/^\s\+//e<cr>
+map <leader>tw :%s/\s\+$//e<cr>
 
 " --
 " Search
@@ -194,13 +194,12 @@ command! -bang QA qa<bang>
 " --
 
 " Upper and lowercase current word
-map <Leader>uc gUiW
-map <Leader>lc guiW
-
+map <leader>uc gUiW
+map <leader>lc guiW
 
 " --
 " Other
 " --
 
 " Edit ~/.vimrc in a separate tab
-nmap <leader>ev :tabedit $MYVIMRC<CR>
+nmap <leader>ev :tabedit $MYVIMRC<cr>
