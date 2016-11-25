@@ -209,3 +209,4 @@ map <leader>lc guiW
 
 " Edit ~/.vimrc in a separate tab
 nmap <leader>ev :tabedit $MYVIMRC<cr>
+nmap <leader>rv :source $MYVIMRC<cr>:echo 'Reloaded ~/.vimrc'<cr>
