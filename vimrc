@@ -77,7 +77,7 @@ set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar
 set showmatch
 
 " Show the preferred line length used for wrapping text
-set textwidth=80 colorcolumn=+1
+set textwidth=80
 
 " Open new split panes to the right and bottom
 set splitbelow splitright
