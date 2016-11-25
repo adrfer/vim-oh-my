@@ -24,6 +24,9 @@ set nobackup nowritebackup noswapfile
 " Wait less time for commands to complete
 set timeout timeoutlen=3000 ttimeoutlen=100
 
+" Allow current buffer be put on background w/o saving
+set hidden
+
 " --
 " User Interface
 " --
