@@ -117,12 +117,6 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
-" Move focus between windows
-map <c-h> <c-w>h
-map <c-j> <c-w>j
-map <c-k> <c-w>k
-map <c-l> <c-w>l
-
 " Scroll up and down faster
 nnoremap <c-e> 5<c-e>
 nnoremap <c-y> 5<c-y>
