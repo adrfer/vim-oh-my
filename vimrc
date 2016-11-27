@@ -96,15 +96,15 @@ set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 set scrolloff=5
 
 " Use h, j, k, l rather than arrow keys
-nnoremap <left> :echoe "Hey, use h instead"<cr>
-nnoremap <down> :echoe "Hey, use j instead"<cr>
-nnoremap <up> :echoe "Hey, use k instead"<cr>
-nnoremap <right> :echoe "Hey, use l instead"<cr>
+nnoremap <left> :echoe "Use h instead"<cr>
+nnoremap <down> :echoe "Use j instead"<cr>
+nnoremap <up> :echoe "Use k instead"<cr>
+nnoremap <right> :echoe "Use l instead"<cr>
 
-vnoremap <left> :echoe "Hey, use h instead"<cr>
-vnoremap <down> :echoe "Hey, use j instead"<cr>
-vnoremap <up> :echoe "Hey, use k instead"<cr>
-vnoremap <right> :echoe "Hey, use l instead"<cr>
+vnoremap <left> :echoe "Use h instead"<cr>
+vnoremap <down> :echoe "Use j instead"<cr>
+vnoremap <up> :echoe "Use k instead"<cr>
+vnoremap <right> :echoe "Use l instead"<cr>
 
 inoremap <left> <nop>
 inoremap <down> <nop>
