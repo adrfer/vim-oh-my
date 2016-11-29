@@ -149,6 +149,9 @@ set softtabstop=2
 " Set the amount of spaces when indenting
 set shiftwidth=2
 
+" Round indent to multiple of 'shiftwidth'
+set shiftround
+
 " Auto-indent new lines
 set autoindent
 
