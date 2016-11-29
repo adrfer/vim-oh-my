@@ -88,6 +88,10 @@ set splitbelow splitright
 " Show custom invisible characters
 set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 
+" Deal with comment leader after joining and inserting lines
+set formatoptions+=j
+set formatoptions-=o
+
 " --
 " Navigation
 " --
