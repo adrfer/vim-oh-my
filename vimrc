@@ -210,4 +210,4 @@ map <leader>lc guiW
 
 " Edit and reload ~/.vimrc
 nmap <leader>ev :tabedit $MYVIMRC<cr>
-nmap <leader>rv :source $MYVIMRC<cr>:echo 'Reloaded ~/.vimrc'<cr>
+nmap <leader>rv :source $MYVIMRC<cr>:echo '~/.vimrc reloaded'<cr>
