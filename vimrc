@@ -38,6 +38,9 @@ set title
 let g:onedark_termcolors=16
 colorscheme onedark
 
+" Do not show the intro message when starting the editor
+set shortmess+=I
+
 " Enable syntax highlighting
 syntax on
 
