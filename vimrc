@@ -165,6 +165,9 @@ set autoindent
 " Enable smart indentantion
 set smartindent
 
+" Do not insert two spaces after punctuation on joining
+set nojoinspaces
+
 " Trim leading and trailing white spaces from current line
 map <leader>lw :%s/^\s\+//e<cr>
 map <leader>tw :%s/\s\+$//e<cr>
