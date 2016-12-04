@@ -127,6 +127,10 @@ nnoremap <c-y> 5<c-y>
 vnoremap <c-e> 5<c-e>
 vnoremap <c-y> 5<c-y>
 
+" Go to beginning and end of line easily
+cnoremap <c-a> <home>
+cnoremap <c-e> <end>
+
 " --
 " Tabs, Spaces, and Indentation
 " --
