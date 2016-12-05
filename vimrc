@@ -134,6 +134,12 @@ vnoremap <c-y> 5<c-y>
 cnoremap <c-a> <home>
 cnoremap <c-e> <end>
 
+" Go down rather than the next line in wrapped lines
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+
 " --
 " Tabs, Spaces, and Indentation
 " --
