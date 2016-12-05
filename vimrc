@@ -95,6 +95,9 @@ set listchars=tab:▸\ ,trail:·,eol:¬,space:␣ showbreak=↪
 set formatoptions+=j
 set formatoptions-=o
 
+" Auto-indent numbered lists
+set formatoptions+=n
+
 " --
 " Navigation
 " --
