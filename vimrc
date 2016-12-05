@@ -88,8 +88,8 @@ set textwidth=80
 " Open new split panes to the right and bottom
 set splitbelow splitright
 
-" Show custom invisible characters
-set listchars=tab:▸\ ,trail:·,eol:¬,space:␣
+" Show custom invisible characters for tabs, eol, etc.
+set listchars=tab:▸\ ,trail:·,eol:¬,space:␣,extends:»,precedes:«
 
 " Show custom invisible chararter at the start of lines that have been wrapped
 set showbreak=↪\ 
