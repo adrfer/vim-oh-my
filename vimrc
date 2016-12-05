@@ -6,7 +6,7 @@
 " Use vim settings rather than vi's
 set nocompatible
 
-" Configure backspace so it acts as it should
+" Allow unrestricted backspacing in insert mode
 set backspace=eol,start,indent
 
 " Save file before running commands
