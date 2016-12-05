@@ -171,6 +171,9 @@ set autoindent
 " Enable smart indentantion
 set smartindent
 
+" Indent wrapped lines to match start
+set breakindent
+
 " Do not insert two spaces after punctuation on joining
 set nojoinspaces
 
