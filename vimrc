@@ -130,12 +130,6 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
-" Scroll up and down faster
-nnoremap <c-e> 5<c-e>
-nnoremap <c-y> 5<c-y>
-vnoremap <c-e> 5<c-e>
-vnoremap <c-y> 5<c-y>
-
 " Move to beginning and end of line easily
 cnoremap <c-a> <home>
 cnoremap <c-e> <end>
