@@ -15,7 +15,7 @@ set autowrite
 " Reload opened files changed elsewhere
 set autoread
 
-" Use vertical splits only for diffs 
+" Use only vertical splits for diffs 
 set diffopt+=vertical
 
 " Avoid keeping backup and swap files
@@ -67,7 +67,7 @@ set statusline+=\ [%{&fileformat}]
 set statusline+=%(\ [%{&fileencoding}]%)
 set statusline+=\ [%{&filetype}]
 
-" Show incomplete commands on bottom
+" Show incomplete commands on the bottom right
 set showcmd
 
 " Show visual autocomplete menu for commands
@@ -82,7 +82,7 @@ set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar
 " Highlight matching braces
 set showmatch
 
-" Show the preferred line length used for wrapping text
+" Show the preferred line length used for wrapping
 set textwidth=80
 
 " Open new split panes to the right and bottom
@@ -91,7 +91,7 @@ set splitbelow splitright
 " Show custom invisible characters for tabs, eol, etc.
 set listchars=tab:▸\ ,trail:·,eol:¬,space:␣,extends:»,precedes:«
 
-" Show custom invisible chararter at the start of lines that have been wrapped
+" Show custom invisible chararter at the start of wrapped lines
 set showbreak=↪\ 
 
 " Deal with comment leader after joining and inserting lines
@@ -136,11 +136,11 @@ nnoremap <c-y> 5<c-y>
 vnoremap <c-e> 5<c-e>
 vnoremap <c-y> 5<c-y>
 
-" Go to beginning and end of line easily
+" Move to beginning and end of line easily
 cnoremap <c-a> <home>
 cnoremap <c-e> <end>
 
-" Go down rather than the next line in wrapped lines
+" Move down rather than the next line on wrapped lines
 nnoremap j gj
 nnoremap k gk
 vnoremap j gj
@@ -168,7 +168,7 @@ set softtabstop=2
 " Set the amount of spaces when indenting
 set shiftwidth=2
 
-" Round indent to multiple of 'shiftwidth'
+" Round indent to a multiple of shiftwidth
 set shiftround
 
 " Auto-indent new lines
@@ -177,7 +177,7 @@ set autoindent
 " Enable smart indentantion
 set smartindent
 
-" Indent wrapped lines to match start
+" Indent wrapped lines to match indentation
 set breakindent
 
 " Do not insert two spaces after punctuation on joining
