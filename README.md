@@ -24,6 +24,10 @@ To install, open a terminal and run:
 
 In case you want to further customize vim while using Vim Oh My, put whatever you need at the `~/.vimrc.local` file.
 
+#### The `~/.tmux.conf.local` file
+
+Now, if you also want to customize tmux, make sure you use the `~/.tmux.conf.local` file.
+
 --
 **Note:** Vim Oh My wouldn't be complete if it wasn't for awesome prior art. So, make it stand out by pairing it with [terminal-oh-my](https://github.com/adrfer/terminal-oh-my) and joshdick's [onedark.vim](https://github.com/joshdick/onedark.vim) projects which have been inspired by atom's great [one-dark-syntax](https://github.com/atom/one-dark-syntax).
 
