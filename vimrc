@@ -230,3 +230,8 @@ map <leader>lc guiW
 " Edit and reload ~/.vimrc
 nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader>rv :source $MYVIMRC<cr>:echo '~/.vimrc reloaded'<cr>
+
+" Source custom configurations, if any
+if filereadable($HOME . '/.vimrc.local')
+  source ~/.vimrc.local
+endif
