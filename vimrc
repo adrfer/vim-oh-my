@@ -188,7 +188,7 @@ map <leader>tw :%s/\s\+$//e<cr>
 " Highlight all search results
 set hlsearch
 
-" Enable smart-case search
+" Make search case sensitive if pattern contains an uppercased letter
 set smartcase
 
 " Enable case-insensitive search
