@@ -197,6 +197,10 @@ set ignorecase
 " Enable incremental search
 set incsearch
 
+" Center viewport while searching
+nnoremap n nzz
+nnoremap N Nzz
+
 " --
 " Commands
 " --
