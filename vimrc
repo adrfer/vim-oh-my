@@ -92,7 +92,7 @@ set splitbelow splitright
 set listchars=tab:▸\ ,trail:·,eol:¬,space:␣,extends:»,precedes:«
 
 " Show custom invisible chararter at the start of wrapped lines
-set showbreak=↪\
+set showbreak=↪\ 
 
 " Deal with comment leader after joining and inserting lines
 set formatoptions+=j
