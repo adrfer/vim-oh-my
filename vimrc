@@ -15,7 +15,7 @@ set autowrite
 " Reload opened files changed elsewhere
 set autoread
 
-" Use only vertical splits for diffs 
+" Use only vertical splits for diffs
 set diffopt+=vertical
 
 " Avoid keeping backup and swap files
@@ -92,7 +92,7 @@ set splitbelow splitright
 set listchars=tab:▸\ ,trail:·,eol:¬,space:␣,extends:»,precedes:«
 
 " Show custom invisible chararter at the start of wrapped lines
-set showbreak=↪\ 
+set showbreak=↪\
 
 " Deal with comment leader after joining and inserting lines
 set formatoptions+=j
@@ -139,6 +139,11 @@ nnoremap j gj
 nnoremap k gk
 vnoremap j gj
 vnoremap k gk
+
+" Center viewport while scrolling
+nnoremap G Gzz
+nnoremap } }zz
+nnoremap { {zz
 
 " --
 " Tabs, Spaces, and Indentation
