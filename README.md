@@ -22,7 +22,7 @@ To install, open a terminal and run:
 
 #### The `~/.vimrc.local` file
 
-To further customize your vim setup while using Vim Oh My, put whatever you need at the `~/.vimrc.local` file.
+To further customize your vim setup, put whatever you need at the `~/.vimrc.local` file.
 
 #### The `~/.tmux.conf.local` file
 
