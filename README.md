@@ -35,5 +35,3 @@ Now, if you also want to tweak your tmux setup, make sure you use the `~/.tmux.c
 Hey, looking for some bash badassery? Check out [bash-oh-my](https://github.com/adrfer/bash-oh-my).
 
 Interested in tuning your git profile? Take a look at [git-oh-my](https://github.com/adrfer/git-oh-my).
-
-What about transforming you machine into an awesome development one? Look no further than [mumm-ra](https://github.com/adrfer/mumm-ra).
