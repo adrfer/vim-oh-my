@@ -182,6 +182,10 @@ set breakindent
 " Do not insert two spaces after punctuation on joining
 set nojoinspaces
 
+" Indent and de-indent using tab
+nnoremap <tab> >>
+nnoremap <s-tab> <<
+
 " Trim leading and trailing white spaces from current line
 map <leader>lw :%s/^\s\+//e<cr>
 map <leader>tw :%s/\s\+$//e<cr>
