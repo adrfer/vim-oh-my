@@ -57,7 +57,7 @@ set showtabline=2
 set laststatus=2
 
 " Set up a simple yet more informative status line
-set statusline=%<%F
+set statusline=%<\ %F
 set statusline+=\ %(%{&readonly!=0?'[readonly]':''}%)
 set statusline+=\ %(%{&modified?'[modified]':''}%)
 set statusline+=%=
@@ -65,7 +65,7 @@ set statusline+=\ [l:\ %l/%L\ (%p%%)]
 set statusline+=\ [c:\ %c]
 set statusline+=\ [%{&fileformat}]
 set statusline+=%(\ [%{&fileencoding}]%)
-set statusline+=\ [%{&filetype}]
+set statusline+=\ [%{&filetype}]\ 
 
 " Show incomplete commands on the bottom right
 set showcmd
