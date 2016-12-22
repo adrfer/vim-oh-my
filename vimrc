@@ -27,6 +27,9 @@ set timeout timeoutlen=3000 ttimeoutlen=100
 " Allow current buffer be put on background w/o saving
 set hidden
 
+" Do not redraw buffer when executing macros
+set lazyredraw
+
 " --
 " User Interface
 " --
