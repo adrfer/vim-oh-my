@@ -1,3 +1,8 @@
+" For more info about `vimrc`, open `vim` and run:
+"
+"   :help vimrc-intro
+"
+" Also, check www.vim.org.
 
 " --
 " General
@@ -68,7 +73,7 @@ set statusline+=\ [l:\ %l/%L\ (%p%%)]
 set statusline+=\ [c:\ %c]
 set statusline+=\ [%{&fileformat}]
 set statusline+=%(\ [%{&fileencoding}]%)
-set statusline+=\ [%{&filetype}]\ 
+set statusline+=\ [%{&filetype}]\
 
 " Show incomplete commands on the bottom right
 set showcmd
@@ -95,7 +100,7 @@ set splitbelow splitright
 set listchars=tab:▸\ ,trail:·,eol:¬,space:␣,extends:»,precedes:«
 
 " Show custom invisible chararter at the start of wrapped lines
-set showbreak=↪\ 
+set showbreak=↪\
 
 " Deal with comment leader after joining and inserting lines
 set formatoptions+=j
