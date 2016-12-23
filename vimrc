@@ -52,8 +52,12 @@ set shortmess+=I
 " Enable syntax highlighting
 syntax on
 
-" Highlight the current line
-set cursorline
+" Highlight current line in the active window, but not in insert mode
+augroup cursorline
+  autocmd!
+  autocmd InsertLeave,WinEnter * set cursorline
+  autocmd InsertEnter,WinLeave * set nocursorline
+augroup end
 
 " Show absolute and relative line numbers with defined width
 set number relativenumber numberwidth=5
@@ -246,7 +250,7 @@ command! -bang QA qa<bang>
 
 " Yank from cursor to the end of line
 nnoremap Y y$
-
+n
 " Upper and lowercase current word
 map <leader>uc gUiW
 map <leader>lc guiW
