@@ -142,11 +142,18 @@ nnoremap <c-l> <c-w>l
 cnoremap <c-a> <home>
 cnoremap <c-e> <end>
 
-" Move down rather than the next line on wrapped lines
+" Improve movement on wrapped lines
 nnoremap j gj
 nnoremap k gk
+nnoremap 0 g0
+nnoremap ^ g^
+nnoremap $ g$
+
 vnoremap j gj
 vnoremap k gk
+vnoremap 0 g0
+vnoremap ^ g^
+vnoremap $ g$
 
 " Center viewport while scrolling
 nnoremap G Gzz
