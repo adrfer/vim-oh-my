@@ -1,4 +1,4 @@
-" For more info about `vimrc`, open `vim` and run:
+" For more info about vimrc, open vim and run:
 "
 "   :help vimrc-intro
 "
