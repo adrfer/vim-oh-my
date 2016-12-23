@@ -62,9 +62,6 @@ augroup end
 " Show absolute and relative line numbers with defined width
 set number relativenumber numberwidth=5
 
-" Show the tab line on top
-set showtabline=2
-
 " Show the status line as the second last line
 set laststatus=2
 
