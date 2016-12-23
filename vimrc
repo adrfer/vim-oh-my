@@ -250,7 +250,7 @@ command! -bang QA qa<bang>
 
 " Yank from cursor to the end of line
 nnoremap Y y$
-n
+
 " Upper and lowercase current word
 map <leader>uc gUiW
 map <leader>lc guiW
