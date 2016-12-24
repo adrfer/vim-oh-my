@@ -261,6 +261,6 @@ nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader>rv :source $MYVIMRC<cr>:echo ' ~/.vimrc reloaded'<cr>
 
 " Source custom configurations, if any
-if filereadable(expand('~/.vimrc.local')
+if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
 endif
