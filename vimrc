@@ -249,8 +249,8 @@ command! -bang QA qa<bang>
 nnoremap Y y$
 
 " Upper and lowercase current word
-map <leader>uc gUiW
-map <leader>lc guiW
+nmap <leader>uc gUiW
+nmap <leader>lc guiW
 
 " --
 " Other
