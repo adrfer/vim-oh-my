@@ -74,7 +74,7 @@ set statusline+=\ [l:\ %l/%L\ (%p%%)]
 set statusline+=\ [c:\ %c]
 set statusline+=\ [%{&fileformat}]
 set statusline+=%(\ [%{&fileencoding}]%)
-set statusline+=\ [%{&filetype}]\
+set statusline+=\ [%{&filetype}]\ 
 
 " Show incomplete commands on the bottom right
 set showcmd
@@ -226,6 +226,9 @@ set incsearch
 nnoremap n nzz
 nnoremap N Nzz
 
+" Turn off search highlighting
+nmap <c-n> :nohlsearch<cr>
+
 " --
 " Commands
 " --
@@ -250,7 +253,7 @@ nnoremap Y y$
 
 " Upper and lowercase current word
 nmap <leader>uc gUiW
-nmap <leader>lc guiW
+map <leader>lc guiW
 
 " --
 " Other
