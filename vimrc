@@ -251,6 +251,9 @@ command! -bang QA qa<bang>
 " Yank from cursor to the end of line
 nnoremap Y y$
 
+" Use U to redo which pairs nicely with the undo
+nnoremap U <c-r>
+
 " Upper and lowercase current word
 nmap <leader>uc gUiW
 map <leader>lc guiW
