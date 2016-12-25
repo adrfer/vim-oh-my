@@ -256,7 +256,7 @@ nnoremap U <c-r>
 
 " Upper and lowercase current word
 nmap <leader>uc gUiW
-map <leader>lc guiW
+nmap <leader>lc guiW
 
 " --
 " Other
