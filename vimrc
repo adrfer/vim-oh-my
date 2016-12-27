@@ -110,6 +110,12 @@ set formatoptions-=o
 " Auto-indent numbered lists
 set formatoptions+=n
 
+" Resize splits when window is resized
+augroup window
+  autocmd!
+  autocmd VimResized * :wincmd =
+augroup end
+
 " --
 " Navigation
 " --
