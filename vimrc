@@ -74,7 +74,7 @@ set statusline+=\ [l:\ %l/%L\ (%p%%)]
 set statusline+=\ [c:\ %c]
 set statusline+=\ [%{&fileformat}]
 set statusline+=%(\ [%{&fileencoding}]%)
-set statusline+=\ [%{&filetype}]\ 
+set statusline+=%(\ [%{&filetype}]\ %)
 
 " Show incomplete commands on the bottom right
 set showcmd
