@@ -233,7 +233,7 @@ nnoremap n nzz
 nnoremap N Nzz
 
 " Turn off search highlighting
-nmap <c-n> :nohlsearch<cr>
+nnoremap <c-n> :nohlsearch<cr>
 
 " --
 " Commands
