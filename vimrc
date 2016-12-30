@@ -264,6 +264,9 @@ nnoremap U <c-r>
 nmap <leader>uc gUiW
 nmap <leader>lc guiW
 
+" Select all text
+nmap <leader>a ggVG
+
 " --
 " Other
 " --
