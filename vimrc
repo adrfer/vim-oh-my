@@ -271,6 +271,9 @@ nmap <leader>a ggVG
 " Other
 " --
 
+" Make dot command work in visual mode
+vnoremap . :normal .<cr>
+
 " Edit and reload ~/.vimrc
 nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader>rv :source $MYVIMRC<cr>:echo ' ~/.vimrc reloaded'<cr>
