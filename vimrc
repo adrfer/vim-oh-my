@@ -278,6 +278,12 @@ vnoremap . :normal .<cr>
 nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader>rv :source $MYVIMRC<cr>:echo ' ~/.vimrc reloaded'<cr>
 
+" Reload ~/.vimrc automatically upon save
+augroup vimrc
+  autocmd!
+  autocmd BufWritePost $MYVIMRC source % | echo ' ~/.vimrc reloaded' | redraw
+augroup end
+
 " Source custom configurations, if any
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
