@@ -2,7 +2,7 @@
 
 Sassy configurations for the most iconic duo ever, vim and tmux.
 
-Tested against `Vim 8` and `Tmux 2.2`.
+Tested against `Vim 8` and `Tmux 2.2`. Setup scripts should pass `shellcheck 0.4.4`.
 
 ## Install
 
